@@ -53,7 +53,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4006397307663230}
-  - component: {fileID: 114625015837498444}
   - component: {fileID: 114528917506887428}
   m_Layer: 0
   m_Name: Gun
@@ -189,21 +188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muzzleFlash: {fileID: 198452209544770674}
   hitEffectPrefab: {fileID: 0}
---- !u!114 &114625015837498444
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1660539184986844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41236c546ef18d34d92c366551a1ea24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  muzzleFlash: {fileID: 198452209544770674}
 --- !u!198 &198097616808028682
 ParticleSystem:
   m_ObjectHideFlags: 1
